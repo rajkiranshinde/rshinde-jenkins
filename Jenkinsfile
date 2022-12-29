@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git credentialsId: '777a7344-89b9-4515-9830-3bd6e9a66158', url: 'https://github.com/nileshkardile831/incedo-repo.git'
+        git credentialsId: '777a7344-89b9-4515-9830-3bd6e9a66158', url: 'https://github.com/rajkiranshinde/rshinde-jenkins.git'
       }
     }
     stage('Docker Build') {
